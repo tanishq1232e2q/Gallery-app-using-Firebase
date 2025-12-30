@@ -1,23 +1,64 @@
-# Getting Started with Create React App
+# Gallergy app using Firebase Authentication
+A modern image exploration web application where users can browse high-quality images, view detailed information, save favorites to their account, and share images across social platforms. Built with React, Firebase Authentication, and Cloud Firestore.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
 
-## Available Scripts
+🔍 Browse Images fetched from Pixabay API
 
-In the project directory, you can run:
+🖼 Image Detail Page with:
 
-### `npm start`
+Views, likes, downloads, collections
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tags (limited to first 10 for clean UI)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+❤️ Save Images to Firestore (per user)
 
-### `npm test`
+🔐 Google Authentication using Firebase
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📤 Social Media Sharing
+
+Facebook, WhatsApp, Twitter, LinkedIn, Telegram
+
+📋 Copy Image Link with one click
+
+📱 Responsive UI
+
+⚡ Fast & Smooth Image Slider
+
+☁ Persistent Data Storage with Firestore
+
+
+### Tech Stack
+
+## Frontend
+
+React.js
+
+React Router DOM
+
+Context API
+
+CSS / Bootstrap
+
+## Backend & Services
+
+Firebase Authentication (Google Sign-In)
+
+Cloud Firestore
+
+Pixabay API
+
+## Libraries Used
+
+react-share
+
+react-icons
+
+sweetalert2
+
+firebase
+
+react-copy-to-clipboard
 
 ### `npm run build`
 
